@@ -1,5 +1,4 @@
 const socket = io();
-alert("anil suthar")
 const btn = document.getElementById("btn");
 const text = document.getElementById("text");
 const msg = document.getElementById("msg");
