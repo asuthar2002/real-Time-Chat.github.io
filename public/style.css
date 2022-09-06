@@ -5,7 +5,7 @@ body {
   }
   .textarea {
     width: 80%;
-    height: 75vh;
+    height: 80vh;
     /* background-color: #FFFDE3; */
     background-color: #A5F1E9;
     display: block;
@@ -26,6 +26,7 @@ body {
     padding: 5px;
     width: auto;
     height: 2rem;
+    background-color: #F2D388;
     text-align: center;
     font-size: 2rem;
   }
@@ -70,6 +71,7 @@ body {
     font-size: 1rem;
     border-radius: 10px;
     width: auto;
+    background-color: #F2D388;
   }
   /* @media only screen and (max-width: 600px) */
   @media screen and (max-width: 650px) {
@@ -85,4 +87,20 @@ body {
       margin-left: 7px;
     }
   }
-  
+  @media screen and (max-width: 400px){
+    .textarea{
+      width: 100%;
+      margin-top: 0;
+      height: 90vh;
+    }
+    .btn{
+      font-size: 1.5rem;
+    }
+    .text{
+      font-size: 1rem;
+      padding: 10px;
+    }
+    .msg{
+      font-size: 0.7rem;
+    }
+  }
