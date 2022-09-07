@@ -11,7 +11,7 @@ text.addEventListener("keyup", (e) => {
   if (e.key === "Enter") sendMessage(text.value);
 });
 
-// btn.addEventListener("click", () => {
+// btn.addEventListener("click", () =>
 //   sendMessage(text.value);
 // });
 
