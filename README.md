@@ -2,6 +2,8 @@
 here  we can chat in group                                                                                                                                                                    
 TO clone this in your local device just type following command in terminal in you current directory 
 
+Prerequizitery Git and Node.Js should be installed 
+
 0->    git clone https://github.com/asuthar2002/real-Time-Chat.github.io.git                                                                                                 
 1->   cd .\real-Time-Chat.github.io\                                                                                                                                       
 2->   npm init                                                                                                                                                              
